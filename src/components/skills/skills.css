@@ -1,0 +1,69 @@
+.about__skills{
+    row-gap: 1.25rem;
+}
+
+.skills__title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.skills__name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);   
+}
+
+.skills__number{
+    line-height: 1.2;
+}
+
+.skills__bar,
+.skills__percentage{
+    height: 7px;
+    border-radius: 0.2rem;
+}
+
+.skills__bar{
+    background-color: #f1f1f1;
+}
+
+.skills__percentage{
+    display: block;
+    background-color: var(--first-color);
+}
+
+.java{
+    width: 90%;
+    background-color: rgb(255,209,92);
+}
+
+.python{
+    width: 85%;
+    background-color: rgb(255,209,92);
+}
+
+.datastructure{
+    width: 85%;
+    background-color: rgb(255,209,92);
+}
+
+.oops{
+    width: 90%;
+}
+
+.sql{
+    width: 85%;
+}
+
+.htmlcss{
+    width: 90%;
+    background-color: rgb(255,209,92);
+}
+
+.reactjs{
+    width: 90%;
+}
+
+.restfulapi{
+    width: 85%;
+}
